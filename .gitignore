@@ -50,7 +50,7 @@ Thumbs.db
 
 # Local project data
 house_price_model.joblib
-.agents/
-.claude/
+agents/
+claude/
 .agents/**
 .claude/**
