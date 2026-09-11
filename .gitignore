@@ -1,0 +1,52 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python package metadata
+*.egg-info/
+.eggs/
+
+# Jupyter / notebook outputs
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.*
+
+# Local data and model artifacts
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# IDE/editor settings
+.vscode/
+.idea/
+.DS_Store
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build and distribution
+build/
+dist/
+*.tar.gz
+*.zip
+
+# OS files
+Thumbs.db
+
+# Local project data
+house_price_model.joblib
