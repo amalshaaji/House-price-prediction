@@ -1,58 +1,91 @@
-# Python bytecode and caches
+# ==========================================
+# Professional .gitignore for Python / ML / Streamlit Projects
+# ==========================================
+
+# --- Operating System Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# --- Python & Bytecode Caches ---
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Virtual environments
+# --- Virtual Environments ---
 .venv/
 venv/
 ENV/
 env/
+env.bak/
+venv.bak/
 
-# Python package metadata
-*.egg-info/
-.eggs/
+# --- IDEs & Code Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
 
-# Jupyter / notebook outputs
+# --- Jupyter Notebook Artifacts ---
 .ipynb_checkpoints/
+*-checkpoint.ipynb
 
-# Environment files
-.env
-.env.*
-
-# Local data and model artifacts
+# --- Machine Learning Models & Large Artifacts ---
 *.joblib
 *.pkl
 *.pickle
 *.h5
 *.hdf5
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.pb
+house_price_model.joblib
 
-# IDE/editor settings
-.vscode/
-.idea/
-.DS_Store
+# --- Environment Variables & Secrets ---
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
 
-# Test / coverage artifacts
+# --- Testing & Code Quality ---
 .pytest_cache/
 .coverage
 .coverage.*
 htmlcov/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
 
-# Build and distribution
-build/
-dist/
-*.tar.gz
-*.zip
-
-# OS files
-Thumbs.db
-
-# Local project data
-house_price_model.joblib
-
-# AI/editor local metadata folders
+# --- Local AI & Agent Metadata ---
 .agents/
 .claude/
-.agents/**
-.claude/**
+.gemini/
