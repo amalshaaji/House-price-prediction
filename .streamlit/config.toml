@@ -1,0 +1,18 @@
+[theme]
+base = "light"
+primaryColor = "#059669"
+backgroundColor = "#F8FAFC"
+secondaryBackgroundColor = "#F1F5F9"
+textColor = "#0F172A"
+borderColor = "#E2E8F0"
+font = "Plus Jakarta Sans:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+baseRadius = "12px"
+buttonRadius = "10px"
+showWidgetBorder = true
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F8FAFC"
+textColor = "#0F172A"
+borderColor = "#E2E8F0"
+primaryColor = "#059669"
